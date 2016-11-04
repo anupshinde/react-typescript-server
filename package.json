@@ -1,0 +1,25 @@
+{
+  "name": "react-server-render",
+  "version": "1.0.0",
+  "description": "Server side rendering with React and TypeScript",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "serve": "tsc -w"
+  },
+  "author": "Anup Shinde",
+  "dependencies": {
+    "axios": "^0.15.2",
+    "express": "^4.14.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-shell": "^0.5.2",
+    "rimraf": "^2.5.4",
+    "run-sequence": "^1.2.2"
+  }
+}
